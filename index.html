@@ -175,24 +175,24 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-        <tr onmouseout="spiderbot_stop()" onmouseover="spiderbot_start()">
+        <tr onmouseout="foldbot_stop()" onmouseover="foldbot_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='spiderbot_image'><video  width=100% height=100% muted autoplay loop>
+                <div class="two" id='foldbot_image'><video  width=100% height=100% muted autoplay loop>
                 <source src="new-images/foldbot.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div>
-                <img src='new-images/foldbot_cover.png' width="160">
+                <img src='new-images/foldbot_cover.jpg' width="160">
               </div>
               <script type="text/javascript">
-                function spiderbot_start() {
-                  document.getElementById('spiderbot_image').style.opacity = "1";
+                function foldbot_start() {
+                  document.getElementById('foldbot_image').style.opacity = "1";
                 }
 
-                function spiderbot_stop() {
-                  document.getElementById('spiderbot_image').style.opacity = "0";
+                function foldbot_stop() {
+                  document.getElementById('foldbot_image').style.opacity = "0";
                 }
-                spiderbot_stop()
+                foldbot_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
