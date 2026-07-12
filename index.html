@@ -1,371 +1,175 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="icon" type="image/png" href="new-images/duke.png">
-    <title>Yanming Xiu (修彦名)</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yanming Xiu - Ph.D. candidate at Duke University working on safe, trustworthy, and intelligent augmented reality.">
+  <meta name="author" content="Yanming Xiu">
+  <title>Yanming Xiu (修彦名)</title>
+  <link rel="icon" type="image/png" href="new-images/duke.png">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="intro">
+        <p class="eyebrow">Duke University · Electrical &amp; Computer Engineering</p>
+        <h1>Yanming Xiu <span>修彦名</span></h1>
+        <p class="lead">I am a Ph.D. candidate in the <a href="https://maria.gorlatova.com">Intelligent Interactive Internet of Things (I³T) Lab</a> at Duke University, advised by <a href="https://maria.gorlatova.com/bio/">Prof. Maria Gorlatova</a>.</p>
+        <p>My research focuses on safe and trustworthy augmented reality, scene understanding, and vision-language models. I develop systems and benchmarks for detecting task-detrimental and deceptive virtual content, and for assessing and improving AR content quality.</p>
+        <nav class="profile-links" aria-label="Profile links">
+          <a href="new-data/Yanming_Xiu_CV.pdf">CV</a>
+          <a href="mailto:yanming.xiu@duke.edu">Email</a>
+          <a href="https://github.com/YM-Xiu">GitHub</a>
+          <a href="https://www.linkedin.com/in/yanmingxiu">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=w628QKEAAAAJ&amp;hl=en">Google Scholar</a>
+        </nav>
+      </div>
+      <img class="portrait" src="new-images/yanming_new.jpg" alt="Portrait of Yanming Xiu">
+    </header>
 
-    <meta name="author" content="Yanming Xiu | 修彦名">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon"> -->
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <section id="news">
+      <h2>Selected News</h2>
+      <ul class="timeline compact">
+        <li><time>Jun 2026</time><span>Two papers accepted to the CVPR 2026 Findings Track.</span></li>
+        <li><time>Oct 2025</time><span>Received the <strong>ISMAR Best Paper Award</strong> for VIM-Sense and the <strong>Best Doctoral Consortium Presentation Award</strong>.</span></li>
+        <li><time>Oct 2025</time><span>Received the <strong>Best Workshop Paper Award</strong> at the ISMAR UNAI Workshop.</span></li>
+      </ul>
+    </section>
 
+    <section id="publications">
+      <div class="section-heading">
+        <h2>Publications</h2>
+        <p>* equal contribution · † student mentee</p>
+      </div>
 
-    <style>
-      .content-divider::before {
-        content: '\2022'; /* Unicode character for a black dot */
-        font-size: 24px;
-        padding: 0 10px;
-        color: black;
-      }
-    </style>
+      <h3>2026</h3>
+      <div class="pub-list">
+        <article class="publication">
+          <p class="venue">CVPR Findings 2026</p>
+          <h4>Benchmarking Vision-Language Models under Contradictory Virtual Content Attacks in Augmented Reality</h4>
+          <p><strong>Yanming Xiu</strong>, Zhengyuan Jiang, Neil Zhenqiang Gong, Maria Gorlatova</p>
+          <p class="links"><a href="https://openaccess.thecvf.com/content/CVPR2026F/html/Xiu_Benchmarking_Vision-Language_Models_under_Contradictory_Virtual_Content_Attacks_in_Augmented_CVPRF_2026_paper.html">Project page</a><a href="https://arxiv.org/abs/2604.05510">arXiv</a></p>
+        </article>
+        <article class="publication">
+          <p class="venue">CVPR Findings 2026</p>
+          <h4>Cognitive Attacks Detection in Augmented Reality (CADAR): A Neuro-Symbolic Approach with Particle Filtering on Perception Graphs</h4>
+          <p>Rongqian Chen, Allison Andreyev, <strong>Yanming Xiu</strong>, Joshua Chilukuri†, Shunav Sen†, Mahdi Imani, Bin Li, Maria Gorlatova, Gary Tan, Tian Lan</p>
+          <p class="links"><a href="https://arxiv.org/abs/2508.09185">arXiv</a></p>
+        </article>
+        <article class="publication">
+          <p class="venue">SOUPS 2026</p>
+          <h4>Is It Real? Exploiting Virtual-Physical Discrimination Vulnerability in Mixed Reality</h4>
+          <p>Xueyang Wang, Xihuan Yao, <strong>Yanming Xiu</strong>, Xin Yi, Maria Gorlatova, Hewu Li</p>
+          <p class="links"><a href="https://arxiv.org/abs/2606.17783">arXiv</a></p>
+        </article>
+        <article class="publication">
+          <p class="venue">IEEE VR Workshop 2026</p>
+          <h4>User Prompting Strategies and Prompt Enhancement Methods for Open-Set Object Detection in XR Environments</h4>
+          <p>Junfeng Lin†, <strong>Yanming Xiu</strong>, Maria Gorlatova</p>
+        </article>
+      </div>
 
-    
-  </head>
+      <h3>2025</h3>
+      <div class="pub-list">
+        <article class="publication featured">
+          <p class="venue">IEEE TVCG / ISMAR 2025 · Best Paper Award</p>
+          <h4>Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach</h4>
+          <p><strong>Yanming Xiu</strong>, Maria Gorlatova</p>
+          <p class="links"><a href="https://arxiv.org/abs/2507.20356">Paper</a><a href="https://github.com/YM-Xiu/AR-VIM">GitHub</a></p>
+        </article>
+        <article class="publication">
+          <p class="venue">IEEE Internet Computing 2025</p>
+          <h4>Probing the Augmented Reality Scene Analysis Capabilities of Large Multimodal Models: Toward Reliable Real-Time Assessment Solutions</h4>
+          <p>Lin Duan, Enrico Rotondo, <strong>Yanming Xiu</strong>, Seungyeon Eom, Rongqian Chen, Chenglin Li, Y. Charlie Hu, Maria Gorlatova</p>
+        </article>
+        <article class="publication">
+          <p class="venue">IEEE TVCG / IEEE VR 2025</p>
+          <h4>ViDDAR: Vision Language Model-Based Task-Detrimental Content Detection for Augmented Reality</h4>
+          <p><strong>Yanming Xiu</strong>, Tim Scargill, Maria Gorlatova</p>
+          <p class="links"><a href="https://www.computer.org/csdl/journal/tg/2025/05/10924575/251sSyPifN6">Paper</a><a href="https://youtu.be/7hboev8wvio">Video</a><a href="https://github.com/YM-Xiu/ViDDAR-Dataset">GitHub</a></p>
+        </article>
+        <article class="publication">
+          <p class="venue">IJCNLP-AACL Findings 2025</p>
+          <h4>Can a Unimodal Language Agent Provide Preferences to Tune a Multimodal Vision-Language Model?</h4>
+          <p>Sazia Tabasum Mim, Jack Morris, Manish Dhakal, <strong>Yanming Xiu</strong>, Maria Gorlatova, Yi Ding</p>
+          <p class="links"><a href="https://aclanthology.org/2025.findings-ijcnlp.133/">Paper</a><a href="https://arxiv.org/abs/2601.06424">arXiv</a></p>
+        </article>
+        <article class="publication">
+          <p class="venue">ISMAR Adjunct 2025 · Best Workshop Paper Award</p>
+          <h4>Say It, See It: A Systematic Evaluation on Audio-Based 3D Content Generation Methods in Augmented Reality</h4>
+          <p><strong>Yanming Xiu</strong>, Joshua Chilukuri†, Shunav Sen†, Maria Gorlatova</p>
+        </article>
+        <article class="publication">
+          <p class="venue">IEEE VR Workshop 2025</p>
+          <h4>Advancing the Understanding and Evaluation of AR-Generated Scenes: When Vision-Language Models Shine and Stumble</h4>
+          <p>Lin Duan*, <strong>Yanming Xiu*</strong>, Maria Gorlatova</p>
+          <p class="links"><a href="https://www.computer.org/csdl/proceedings-article/vrw/2025/148400a156/26aUBSr1LS8">Paper</a><a href="https://github.com/ARResearch-1/DiverseAR-Dataset">GitHub</a></p>
+        </article>
+        <article class="publication">
+          <p class="venue">ISMAR Doctoral Consortium 2025 · Best Presentation Award</p>
+          <h4>Toward Safe, Trustworthy and Realistic Augmented Reality User Experience</h4>
+          <p><strong>Yanming Xiu</strong>, Maria Gorlatova</p>
+          <p class="links"><a href="https://arxiv.org/abs/2507.23226">Paper</a></p>
+        </article>
+        <article class="publication">
+          <p class="venue">IEEE VR Research Demonstration 2025</p>
+          <h4>Vision Language Model-Based Solution for Obstruction Attack in AR: A Meta Quest 3 Implementation</h4>
+          <p><strong>Yanming Xiu</strong>, Maria Gorlatova</p>
+          <p class="links"><a href="https://ieeexplore.ieee.org/document/10972787">Paper</a><a href="https://youtu.be/ll1N261nVVA">Video</a></p>
+        </article>
+        <article class="publication">
+          <p class="venue">ACM MobiHoc Workshop Demonstration 2025</p>
+          <h4>Demonstrating Visual Information Manipulation Attacks in Augmented Reality: A Hands-On Miniature City-Based Setup</h4>
+          <p><strong>Yanming Xiu</strong>, Maria Gorlatova</p>
+        </article>
+      </div>
 
-  <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  <b>Yanming Xiu (修彦名)</b>
-                </p>
-                <p>
-                  Greetings! I am currently a 3rd year Ph.D. candidate at <a href="https://maria.gorlatova.com">Intelligent Interactive Internet of Things (I^3T) Lab </a>, <a href="https://ece.duke.edu/">Department of Electrical and Computer Engineering, Duke University</a> in Durham, NC, where I work on computer vision, deep learning and medical imaging. My Advisor is <a href="https://maria.gorlatova.com/bio/">Dr. Maria Gorlatova</a>.
-                </p>
-                <p>
-                  Prior to coming to Duke, I earned my B.Eng. in Automation and a honor undergraduate degree at <a href:"https://www.zju.edu.cn/english/"> Zhejiang University</a> in 2022. I also worked as a research assistant at the <a href:"https://www.hku.hk/">University of Hong Kong</a> in 2021.
-                </p>
-                <p>
-                  
-                </p>
-                <p style="text-align:center">
-                  <a href="new-data/Yanming_Xiu_CV.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="new-data/email.txt">Email</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/YM-Xiu">Github</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/yanmingxiu">Linkedin</a> &nbsp;/&nbsp;
-		<a href="https://scholar.google.com/citations?user=w628QKEAAAAJ&hl=en">Google Scholar</a>
-<!--                   <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-<!--                   <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp;/&nbsp; -->
-<!--                   <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
-                  
-                  
-                </p>
-              </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="new-images/yanming_new.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="new-images/yanming_new.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
+      <h3>2024</h3>
+      <div class="pub-list">
+        <article class="publication">
+          <p class="venue">ISMAR Adjunct 2024</p>
+          <h4>LOBSTAR: Language Model-Based Obstruction Detection for Augmented Reality</h4>
+          <p><strong>Yanming Xiu</strong>, Tim Scargill, Maria Gorlatova</p>
+          <p class="links"><a href="https://ieeexplore.ieee.org/document/10765143">Paper</a><a href="new-data/lobstar_poster.pdf">Poster</a></p>
+        </article>
+      </div>
+    </section>
 
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2><b>Research Interests</b></h2>
-                <p>
-                  I'm interested in machine learning and its application in computer vision, especially Augmented Reality (AR) and Virtual Reality (VR). Currently I am also interested in generative AI and its application.
-                </p>
-                  My current research is mainly focused on: (1) addressing user safety issues in AR experiences by modeling and detecting detrimental virtual content; (2) assessing virtual content quality by using automated systems leveraging generative AI.
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <section id="experience" class="two-column">
+      <div>
+        <h2>Education</h2>
+        <div class="entry"><h3>Duke University</h3><p>Ph.D. Student, Electrical and Computer Engineering</p><time>Aug 2022 – Present</time></div>
+        <div class="entry"><h3>Zhejiang University</h3><p>B.Eng. in Automation and Robotics, Chu Kochen Honor Class</p><time>Sep 2018 – Jun 2022</time></div>
+      </div>
+      <div>
+        <h2>Teaching &amp; Mentoring</h2>
+        <div class="entry"><h3>Teaching Assistant, ECE 687D</h3><p>Theory and Algorithms of Machine Learning</p><time>Fall 2025</time></div>
+        <div class="entry"><h3>Teaching Assistant, ECE 356</h3><p>Computer Networks</p><time>Fall 2024</time></div>
+        <div class="entry"><h3>High School Research Mentor</h3><p>Mentored four NCSSM students across two research projects.</p><time>Jun 2024 – Present</time></div>
+      </div>
+    </section>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2><b>Experiences</b></h2>
-                <p>
-                  <ul>
-		<li>
-                      Dec. 2023 - Now: Research Assistant, <a href="https://ece.duke.edu/">Department of Electrical and Computer Engineering, Duke University</a>
-                      <p>
-                        Advisor: <a href="https://maria.gorlatova.com/bio/">Dr. Maria Gorlatova</a>
-                      </p>
-                    </li><br>
-                    <li>
-                      Aug. 2022 - Nov. 2023: Research Assistant, <a href="https://psychiatry.duke.edu/">Department of Psychiatry and Behavioral Science, Duke University</a>
-                      <p>
-                        Advisor: <a href="https://med.emory.edu/directory/profile/?u=YWAN303">Dr. Yun Wang</a>, <a href="https://psychiatry.duke.edu/profile/jonathan-posner">Prof. Jonathan Posner</a>
-                      </p>
-                    </li><br>
-                    <li>
-                      Jul. 2021 - Dec. 2021: Research Assistant, <a href="https://www.cs.hku.hk/">Department of Computer Science, University of Hong Kong </a>
-                      <p>
-                        Advisor: <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html"> Prof. Wenping Wang</a>
-                      </p>
-                    </li><br>
-                    <li>
-                      Mar. 2020 - May. 2021: Research Assistant, College of Control Science and Engineering, Zhejiang University
-                      <p>
-                        Advisor: <a href="https://person.zju.edu.cn/en/jmchen"> Prof. Jiming Chen</a>
-                      </p>
-                    </li>
-                  </ul>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <section id="honors">
+      <h2>Selected Honors</h2>
+      <ul class="timeline">
+        <li><time>Oct 2025</time><span><strong>Best Paper Award</strong>, IEEE ISMAR</span></li>
+        <li><time>Oct 2025</time><span><strong>Best Doctoral Consortium Presentation Award</strong>, IEEE ISMAR</span></li>
+        <li><time>Oct 2025</time><span><strong>Best Workshop Paper Award</strong>, IEEE ISMAR UNAI Workshop</span></li>
+        <li><time>Sep 2025</time><span>Graduate Program Research Workshop Student Talk Session Runner-Up, Duke ECE</span></li>
+        <li><time>Jun 2022</time><span>Outstanding Graduate, Chu Kochen Honors College, Zhejiang University</span></li>
+      </ul>
+    </section>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2><b>Education</b></h2>
-                <p>
-                  
-                  <ul>
-                  <li>
-                         Aug. 2022 - Now: Ph.D. Student, Department of Electrical and Computer Engineering, Duke University
-                          <p>
-                          GPA: 3.86/4.00
-                          </p>
-                        
-                  </li><br>
-                    <li>
-                      Aug. 2018 - Jun. 2022: B.Eng in Automation, <a href="http://www.cse.zju.edu.cn/cseenglish/main.htm">College of Control Science and Engineering, Zhejiang University </a>
-                      <p>
-                        GPA: 3.85/4.00
-                      </p>
-                  </li><br>
-                  <li>
-                      Aug. 2018 - Jun. 2022: Honors Degree, <a href="http://ckc.zju.edu.cn/ckcen/">Chu-Kochen Honors College, Zhejiang University </a>
-                  </li><br>
-                  </u>
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <section id="service">
+      <h2>Professional Service</h2>
+      <p><strong>Journal reviewer:</strong> Pattern Recognition, IEEE Network, International Journal of Human-Computer Interaction, Neurocomputing, and Engineering Applications of Artificial Intelligence.</p>
+      <p><strong>Conference reviewer:</strong> ACM VRST and EuroXR; external reviewer for CVPR, MobiSys, SenSys, SIGCOMM, and MobiCom.</p>
+    </section>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2><b>Honors</b></h2>
-                <p>
-                  <ul>
-                    <li>
-                      Jun. 2022: Outstanding Undergraduate Graduates, Zhejiang University (Top 10%)
-                    </li><br>
-                    <li>
-                      Oct. 2021: First Tier Scholaship for Academic Excellence, Zhejiang University (Top 5%)
-                    </li><br>
-                  </ul>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-
-		  
-
-
-	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2><b>Publications (*Equal Contributions)</b></h2>
-<p>
-  <!-- 2025 -->
-  <div style="font-weight:bold; font-size:18px; margin-top:20px;">2025</div>
-  <ul>
-    <li>
-      Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach <br>
-      <strong>Yanming Xiu</strong>, Maria Gorlatova. <br>
-      <em>Conditionally accepted to IEEE Transactions on Visualization and Computer Graphics (TVCG), 2025</em> <br>
-      <a href="https://arxiv.org/abs/2507.20356">Paper</a> / <a href="https://github.com/YM-Xiu/AR-VIM">Github Repo</a>
-    </li><br>
-
-    <li>
-      Toward Safe, Trustworthy and Realistic Augmented Reality User Experience <br>
-      <strong>Yanming Xiu</strong>, Maria Gorlatova. <br>
-      <em>IEEE International Symposium on Mixed and Augmented Reality (ISMAR) Adjunct, 2025</em> <br>
-      <a href="https://arxiv.org/abs/2507.23226">Paper</a>
-    </li><br>
-
-    <li>
-      ViDDAR: Vision Language Model-Based Task-Detrimental Content Detection for Augmented Reality <br>
-      <strong>Yanming Xiu</strong>, Tim Scargill, Maria Gorlatova. <br>
-      <em>IEEE Transactions on Visualization and Computer Graphics (TVCG), 2025</em> <br>
-      <a href="https://www.computer.org/csdl/journal/tg/2025/05/10924575/251sSyPifN6">Paper</a> / 
-      <a href="https://youtu.be/7hboev8wvio">Video</a> / 
-      <a href="https://github.com/YM-Xiu/ViDDAR-Dataset">Github Repo</a>
-    </li><br>
-
-    <li>
-      Advancing the Understanding and Evaluation of AR-Generated Scenes: When VLMs Shine and Stumble <br>
-      Lin Duan*, <strong>Yanming Xiu*</strong>, Maria Gorlatova. <br>
-      <em>IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), 2025</em> <br>
-      <a href="https://www.computer.org/csdl/proceedings-article/vrw/2025/148400a156/26aUBSr1LS8">Paper</a> / 
-      <a href="https://github.com/ARResearch-1/DiverseAR-Dataset">Github Repo</a>
-    </li><br>
-
-    <li>
-      VLM-Based Solution for Obstruction Attack in AR: A Meta Quest 3 Implementation <br>
-      <strong>Yanming Xiu</strong>, Maria Gorlatova. <br>
-      <em>IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), 2025</em> <br>
-      <a href="https://ieeexplore.ieee.org/document/10972787">Paper</a> / 
-      <a href="https://youtu.be/ll1N261nVVA">Video</a>
-    </li><br>
-  </ul>
-
-  <!-- 2024 -->
-  <div style="font-weight:bold; font-size:18px; margin-top:20px;">2024</div>
-  <ul>
-    <li>
-      LOBSTAR: Language Model-Based Obstruction Detection for Augmented Reality <br>
-      <strong>Yanming Xiu</strong>, Tim Scargill, Maria Gorlatova. <br>
-      <em>IEEE International Symposium on Mixed and Augmented Reality (ISMAR) Adjunct, 2024</em> <br>
-      <a href="https://ieeexplore.ieee.org/document/10765143">Paper</a> / 
-      <a href="new-data/lobstar_poster.pdf">Poster</a>
-    </li><br>
-  </ul>
-</p>
-              </td>
-            </tr>
-          </tbody></table>
-
-
-
-		  
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2><b>Other Projects</b></h2>
-              <p>
-                Some of my previous projects are listed here:
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-        <tr onmouseout="foldbot_stop()" onmouseover="foldbot_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='foldbot_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="new-images/foldbot_clipped.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='new-images/foldbot_cover.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function foldbot_start() {
-                  document.getElementById('foldbot_image').style.opacity = "1";
-                }
-
-                function foldbot_stop() {
-                  document.getElementById('foldbot_image').style.opacity = "0";
-                }
-                foldbot_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://www.youtube.com/watch?v=Ee9dMaSq948">
-                <papertitle>Clothes Folding Robot</papertitle>
-              </a>
-                <br>
-							<a href="https://www.youtube.com/watch?v=Ee9dMaSq948">Video</a>
-              <p></p>
-              <p>This is a joint project co-advised by Prof. Wenping Wang from HKU and <a href="https://person.zju.edu.cn/en/0091102">Prof. Yiping Feng</a> from ZJU.
-		The project include 3 parts: 1) clothes landmark detection through HRNet, 2) Robotic arm path planning and 3) Overall system construction. The camera takes an image of clothes and pass it to my fork version of
-		      <a href="https://github.com/svip-lab/HRNet-for-Fashion-Landmark-Estimation.PyTorch">HRNet</a> . Then the HRNet predict the key points of the clothes and pass them to robot control script.
-		      Finally, the arm execute the folding process.
-	      </p>
-            </td>
-          </tr>
-
-          </tbody></table>
-		  
-	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-	<tr onmouseout="bellbot_stop()" onmouseover="bellbot_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='bellbot_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="new-images/bellbot_clipped3.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='new-images/bellbot_cover.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function bellbot_start() {
-                  document.getElementById('bellbot_image').style.opacity = "1";
-                }
-
-                function bellbot_stop() {
-                  document.getElementById('bellbot_image').style.opacity = "0";
-                }
-                bellbot_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://www.youtube.com/watch?v=sG8bIiiRh5w">
-                <papertitle>Bell Hitting Robot</papertitle>
-              </a>
-                <br>
-							<a href="https://www.youtube.com/watch?v=sG8bIiiRh5w">Video</a>
-              <p></p>
-              <p>This is a competition held by ZJU CSE. The participants are required to control the robot arm and hit the bells for as much times as possible within 1 minute, while obstacle avoidance is also required.
-		I loaded the robot model in Gazebo, implemented the torque control algorithm and tested it in real-world robot.
-	      </p>
-            </td>
-          </tr>
-
-          </tbody></table>
-
-	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-	<tr>
-	      <td style="padding:20px;width:25%;vertical-align:middle">
-	        <div class="one">
-	          <div class="two" id='bellbot_image'>
-	            <img src='new-images/RFID.jpg' width="160">
-	          </div>
-	        </div>
-	      </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://www.youtube.com/watch?v=KliKUNSbHa0">
-                <papertitle> Chipless RFID Tag Detection </papertitle>
-              </a>
-                <br>
-							<a href="https://www.youtube.com/watch?v=KliKUNSbHa0">Video</a> / <a href="new-data/RFID.pptx">Slides (in Chinese)</a>
-              <p></p>
-              <p>This is a training program in 2020, in which I designed a new type of chipless RFID tag so that the production cost of tags can be reduced. 
-		      The tag can be correctly detected by the RFID reader at around 5-80 cm, which are common detection distances for warehouse logistics tasks.
-	      </p>
-            </td>
-          </tr>
-
-          </tbody></table>
-
-	          <footer class="footer">
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-                <tr>
-                    <td width=30%>
-                        <br>
-                        <p align="left">
-                            <font size="2">
-                               Last updated on Aug. 2025
-                            </font>
-                        </p>
-                    </td>
-
-                    <td width=40% align="center" hidden="hidden">
-<!--                       <a href="https://clustrmaps.com/site/1bl80"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=p50vKcM-nrOZmNqIPVxMBYv8gETkGPaJxWjM23aTZQg&cl=ffffff" /></a> -->
-			    <a href="https://clustrmaps.com/site/1bx20"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=Zq2A_XW0RqFrN2xh8xZ6sjz09viht1OrUSHRcvxPiaU&cl=ffffff" /></a>
-                    </td>
-                    <td width=30%>
-                        <br>
-                        <p align="right">
-                            <font size="2">
-                                Website forked from <a href="https://jonbarron.info/">Jon Barron</a>
-                            </font>
-                        </p>
-                    </td>
-                </tr>
-            </table>
-        </footer>
-
+    <footer>
+      <p>Last updated July 2026 · Source design adapted from <a href="https://jonbarron.info/">Jon Barron</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>
